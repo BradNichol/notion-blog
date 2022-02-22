@@ -32,10 +32,14 @@ export default function Contact() {
     <>
       <Header titlePre="Contact" />
       <div className={sharedStyles.layout}>
+        <div className={contactStyles.avatar}>
+          <img src="/me.png" alt="My big face" height={60} />
+        </div>
+
         <h1 style={{ marginTop: 0 }}>Contact</h1>
 
         <div className={contactStyles.name}>
-          Bradley Nichol - Software Developer @{' '}
+          Bradley Nichol - Software Developer
         </div>
 
         <div className={contactStyles.links}>
