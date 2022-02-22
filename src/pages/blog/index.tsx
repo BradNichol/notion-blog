@@ -63,10 +63,11 @@ const Index = ({ posts = [], preview }) => {
         </div>
       )}
       <div className={`${sharedStyles.layout} ${blogStyles.blogIndex}`}>
-        <h3>
+        <p style={{ textAlign: 'center' }}>
           “The beautiful thing about learning is nobody can take it away from
           you.” - B.B. King
-        </h3>
+        </p>
+        <hr />
         {posts.length === 0 && (
           <p className={blogStyles.noPosts}>There are no posts yet</p>
         )}

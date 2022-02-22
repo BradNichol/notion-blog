@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>My Blog</title>
+    <subtitle>Blog</subtitle>
+    <link href="/atom" rel="self" type="application/rss+xml"/>
+    <link href="/" />
+    <updated>2022-02-22T23:38:23.074Z</updated>
+    <id>My Notion Blog</id>
+    <entry>
+      <id>/blog/test-page</id>
+      <title>Testpage</title>
+      <link href="/blog/test-page"/>
+      <updated>2022-02-22T00:00:00.850Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <p>This is the blog post introduction and is a placeholder for upcoming blog posts.</p>
+          <p class="more">
+            <a href="/blog/test-page">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name></name></author>
+    </entry>
+  </feed>
